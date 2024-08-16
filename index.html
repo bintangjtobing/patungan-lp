@@ -2,6 +2,26 @@
 <html dir="ltr" lang="">
 
 <head>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    function generateToken() {
+      return (
+        Math.random().toString(36).substring(2, 8) +
+        Math.random().toString(36).substring(2, 8)
+      );
+    }
+    const token = generateToken();
+    document.addEventListener('DOMContentLoaded', () => {
+      const cssLinks = document.querySelectorAll('link[rel="stylesheet"][href$=".css"]');
+      cssLinks.forEach((link) => {
+        link.href = `${link.href}?v=${token}`;
+      });
+      const scripts = document.querySelectorAll('script[src$=".js"]');
+      scripts.forEach((script) => {
+        script.src = `${script.src}?v=${token}`;
+      });
+    });
+  </script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       // Function to determine language from URL
@@ -106,7 +126,6 @@
 
     gtag('config', 'G-7WDXGYH5NZ');
   </script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script type="javascript" src="js/script.js"></script>
 </head>
 
@@ -824,7 +843,6 @@
 	============================================= -->
   <script src="js/plugins.min.js"></script>
   <script src="js/functions.bundle.js"></script>
-
   <script>
     window.addEventListener('load', function () {
       var swiperParent = new Swiper('.swiper-testimonial', {
@@ -886,7 +904,6 @@
       });
     });
   </script>
-
 </body>
 
 </html>
