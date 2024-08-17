@@ -1,71 +1,46 @@
 {
-  "slider": {
-    "title": "Tonton Apa yang Anda Inginkan, Kapan Pun Anda Inginkan <span>– Bersama!</span>",
-    "subtitle": "Mengapa membayar harga penuh jika Anda bisa berbagi pengalaman? Dengan PatunganYuk!, Anda dapat menikmati semua manfaat Netflix dengan berbagi biaya dengan teman atau pengguna lain.",
-    "getStarted": "Mulai Sekarang",
-    "contactUs": "Hubungi Kami"
-  },
-  "steps": {
-    "step1": {
-      "title": "Isi Data Pribadi Anda",
-      "content": "Mulailah dengan mendaftar di PatunganYuk! dengan mengisi data pribadi Anda. Masukkan nama, email, dan informasi lain yang diperlukan untuk membuat akun Anda. Proses ini cepat dan mudah, memastikan Anda siap untuk berbagi layanan streaming favorit Anda dalam waktu singkat."
-    },
-    "step2": {
-      "title": "Pilih Produk",
-      "content": "Setelah akun Anda siap, pilih layanan streaming yang ingin Anda bagikan. Apakah itu Netflix, Spotify, Disney+, atau layanan lainnya, Anda dapat memilih dan menemukan mitra berbagi yang sesuai dengan preferensi Anda. Kami menawarkan berbagai pilihan untuk memastikan Anda mendapatkan yang terbaik dari setiap layanan."
-    },
-    "step3": {
-      "title": "Bayar dan Nikmati Platform",
-      "content": "Selesaikan proses dengan melakukan pembayaran. Setelah pembayaran selesai, Anda dapat langsung mulai menikmati layanan streaming yang Anda pilih, bersama mitra berbagi Anda. Sangat sederhana!"
-    }
-  },
-  "bestProduct": {
-    "title": "Produk <span class='gradient-text gradient-color font-secondary px-1 ls-1'>Terbaik</span> Kami",
-    "description": "Nikmati layanan streaming premium seperti Netflix dan Spotify dengan biaya yang jauh lebih murah. Dengan PatunganYuk!, berbagi langganan menjadi mudah, mengelola akun dengan aman, dan dapatkan nilai terbaik untuk uang Anda. Bergabunglah dengan kami dan buka hiburan tanpa batas bersama."
-  },
-  "features": [
-    {
-      "title": "Manajemen Akun",
-      "description": "Kelola akun yang dibagikan, pembayaran, dan akses anggota dengan mudah melalui platform kami yang intuitif.",
-      "image": "demos/saas-2/images/svg/analysis.svg"
-    },
-    {
-      "title": "Berbagi Langganan",
-      "description": "Bagikan biaya layanan streaming dan langganan lainnya secara efisien dengan pengguna yang memiliki minat yang sama.",
-      "image": "demos/saas-2/images/svg/paybill.svg"
-    },
-    {
-      "title": "Kolaborasi Tanpa Hambatan",
-      "description": "Terhubung dengan mitra secara mudah, berbagi langganan, dan nikmati layanan favorit Anda bersama-sama.",
-      "image": "demos/saas-2/images/svg/install.svg"
-    }
-  ],
-  "headline": "Biaya <span class=\"gradient-text gradient-color font-secondary px-1 ls-1\">berbisnis</span><br> seharusnya tidak terlalu mahal",
-  "description": "Nikmati opsi ramah anggaran dengan harga fleksibel kami<br>Pastikan keterjangkauan tanpa mengorbankan kualitas atau nilai.",
-  "faq": {
-    "title": "Pertanyaan yang Sering Diajukan",
-    "description": "Dapatkan jawaban cepat untuk pertanyaan umum Anda dan temukan bagaimana PatunganYuk! dapat meningkatkan pengalaman streaming Anda. Jika Anda membutuhkan informasi lebih rinci, tim dukungan kami siap membantu.",
-    "questions": [
-      {
-        "question": "Bagaimana cara kerja PatunganYuk!?",
-        "answer": "PatunganYuk! menghubungkan pengguna yang ingin berbagi biaya langganan streaming seperti Netflix, Spotify, dan Disney+. Cukup bergabung atau buat grup, bagi biaya, dan nikmati layanan premium bersama."
-      },
-      {
-        "question": "Bagaimana cara bergabung dengan grup di PatunganYuk!?",
-        "answer": "Anda dapat mencari grup yang sudah ada berdasarkan layanan streaming yang Anda pilih atau membuat grup Anda sendiri. Setelah memilih grup, ikuti petunjuk untuk menyelesaikan pembayaran dan mulai berbagi."
-      },
-      {
-        "question": "Metode pembayaran apa saja yang didukung?",
-        "answer": "PatunganYuk! mendukung berbagai metode pembayaran termasuk kartu kredit/debit, dompet elektronik, dan transfer bank. Pilih metode yang paling sesuai dengan kebutuhan Anda."
-      },
-      {
-        "question": "Apakah informasi akun saya aman?",
-        "answer": "Ya, kami memprioritaskan keamanan Anda. Informasi pribadi dan pembayaran Anda dienkripsi dan disimpan dengan aman. Kami juga menyarankan untuk menggunakan profil semi-pribadi untuk meningkatkan privasi."
-      },
-      {
-        "question": "Bagaimana cara membatalkan atau meninggalkan grup?",
-        "answer": "Untuk meninggalkan grup, cukup buka pengaturan akun Anda dan pilih opsi untuk keluar dari grup. Harap dicatat bahwa meninggalkan grup akan membatalkan akses berbagi Anda ke layanan tersebut."
-      }
-    ]
-  }
+  "howTo": "Cara",
+  "products": "Produk",
+  "pricing": "Harga",
+  "faqs": "FAQ",
+  "headline": "Tonton Apa Saja yang Anda Mau, Kapan Saja – Bersama!",
+  "intro": "Kenapa harus bayar penuh kalau Anda bisa berbagi pengalaman? Dengan PatunganYuk!, Anda bisa menikmati semua keuntungan Netflix dengan berbagi biaya bersama teman atau pengguna lainnya.",
+  "services_intro": "Menyediakan layanan di platform ini &mdash;",
+  "steps_title_1": "Isi Data Pribadi Anda",
+  "steps_content_1": "Mulai dengan mendaftar di PatunganYuk! dengan mengisi data pribadi Anda. Masukkan nama, email, dan informasi lainnya yang diperlukan untuk membuat akun Anda. Prosesnya cepat dan mudah, memastikan Anda siap untuk berbagi layanan streaming favorit Anda dalam waktu singkat.",
+  "steps_title_2": "Pilih Produk",
+  "steps_content_2": "Setelah akun Anda siap, pilih layanan streaming yang ingin Anda bagikan. Baik itu Netflix, Spotify, Disney+, atau layanan lain, Anda dapat memilih dan menemukan mitra berbagi yang sesuai dengan preferensi Anda. Kami menawarkan berbagai opsi untuk memastikan Anda mendapatkan manfaat terbaik dari setiap layanan.",
+  "steps_title_3": "Bayar dan Nikmati Platform",
+  "steps_content_3": "Selesaikan proses dengan melakukan pembayaran. Setelah pembayaran selesai, Anda dapat segera mulai menikmati layanan streaming yang telah Anda pilih, bersama mitra berbagi Anda. Semudah itu!",
+  "best_product_title": "Produk Terbaik Kami",
+  "best_product_content": "Nikmati layanan streaming premium seperti Netflix dan Spotify dengan harga yang lebih terjangkau. Dengan PatunganYuk!, bagikan langganan dengan mudah, kelola akun dengan aman, dan dapatkan nilai terbaik untuk uang Anda. Bergabunglah dengan kami dan nikmati hiburan tanpa batas bersama.",
+  "netflix_title": "Hiburan Tak Terbatas, Semua dalam Satu Tempat, Dibagikan dengan Teman",
+  "spotify_title": "Temukan, Streaming, dan Bagikan – dengan Biaya yang Lebih Terjangkau",
+  "youtube_title": "Jelajahi Dunia Video, Bagikan Pengalaman",
+  "canva_title": "Desain Apa Saja, Bagikan dengan Indah",
+  "microsoft365_title": "Bekerja dan Berkolaborasi Secara Efisien, Dimana Saja",
+  "microsoft365_subtitle": "Dengan PatunganYuk!, bagikan biaya Microsoft 365 dan akses alat penting seperti Word, Excel, dan PowerPoint. Nikmati penyimpanan cloud dan kolaborasi tanpa harga mahal. Mulai berbagi hari ini dan tingkatkan produktivitas dengan biaya terjangkau.",
+  "core_features": "Fitur utama kami",
+  "coreFeat_title_1": "Manajemen Akun",
+  "coreFeat_content_1": "Mudah ngatur akun bareng, pembayaran, dan akses anggota lewat platform kami yang gampang dipakai.",
+  "coreFeat_title_2": "Berbagi Langganan",
+  "coreFeat_content_2": "Bagikan biaya layanan streaming dan langganan lainnya dengan teman-teman secara efisien.",
+  "coreFeat_title_3": "Kolaborasi Tanpa Ribet",
+  "coreFeat_content_3": "Terhubung dengan teman, bagikan langganan, dan nikmati layanan favorit bersama dengan mudah.",
+  "pricingText": "Streaming Terjangkau: Bayar Lebih Sedikit, Nikmati Lebih Banyak",
+  "pricingDescription": "Nikmati akses ke platform streaming top seperti Netflix, Spotify, dan lainnya dengan rencana harga kami yang fleksibel dan ramah di kantong. Dapatkan nilai terbaik tanpa merusak anggaran.",
+  "faq_title": "Pertanyaan yang Sering Diajukan",
+  "faq_description": "Temukan jawaban cepat untuk pertanyaan umum Anda dan lihat bagaimana PatunganYuk! dapat meningkatkan pengalaman streaming Anda. Tim dukungan kami siap membantu jika diperlukan.",
+  "faq_howItWorks_title": "Bagaimana cara kerja PatunganYuk!?",
+  "faq_howItWorks_content": "PatunganYuk! menghubungkan pengguna yang ingin berbagi biaya langganan streaming seperti Netflix, Spotify, dan Disney+. Cukup bergabung atau buat grup, bagi biaya, dan nikmati layanan premium bersama.",
+  "faq_joinGroup_title": "Bagaimana cara bergabung dengan grup di PatunganYuk!?",
+  "faq_joinGroup_content": "Anda bisa mencari grup yang sudah ada berdasarkan layanan streaming yang Anda pilih atau membuat grup baru. Setelah memilih grup, ikuti petunjuk untuk menyelesaikan pembayaran dan mulai berbagi.",
+  "faq_paymentMethods_title": "Metode pembayaran apa saja yang didukung?",
+  "faq_paymentMethods_content": "PatunganYuk! mendukung berbagai metode pembayaran termasuk kartu kredit/debit, dompet elektronik, dan transfer bank. Pilih metode yang paling sesuai dengan kebutuhan Anda.",
+  "faq_accountSecurity_title": "Apakah informasi akun saya aman?",
+  "faq_accountSecurity_content": "Ya, kami menjaga keamanan informasi Anda. Data pribadi dan pembayaran Anda dienkripsi dan disimpan dengan aman. Kami juga menyarankan penggunaan profil semi-pribadi untuk menjaga privasi.",
+  "faq_cancelGroup_title": "Bagaimana cara membatalkan atau meninggalkan grup?",
+  "faq_cancelGroup_content": "Untuk meninggalkan grup, cukup pergi ke pengaturan akun Anda dan pilih opsi untuk keluar dari grup. Perlu diingat, keluar dari grup akan membatalkan akses berbagi Anda ke layanan tersebut.",
+  "callToAction": "Bergabunglah dengan PatunganYuk! Hari Ini!",
+  "callToActionDescription": "Mulailah berbagi dan menghemat pada layanan streaming favorit Anda. Dengan platform kami yang mudah digunakan dan dukungan yang siap membantu, Anda akan menikmati akses premium tanpa harus membayar lebih."
 }

@@ -1,71 +1,46 @@
 {
-  "slider": {
-    "title": "Watch What You Want, When You Want <span>– Together!</span>",
-    "subtitle": "Why pay full price when you can share the experience? With PatunganYuk!, you can enjoy all the benefits of Netflix by sharing the cost with friends or other users.",
-    "getStarted": "Get Started",
-    "contactUs": "Contact Us"
-  },
-  "steps": {
-    "step1": {
-      "title": "Fill in Your Personal Details",
-      "content": "Start by signing up on PatunganYuk! by filling in your personal details. Enter your name, email, and other required information to create your account. The process is quick and easy, ensuring you're ready to share your favorite streaming services in no time."
-    },
-    "step2": {
-      "title": "Choose a Product",
-      "content": "Once your account is set up, select the streaming service you want to share. Whether it’s Netflix, Spotify, Disney+, or another service, you can choose and find a sharing partner that matches your preferences. We offer a variety of options to ensure you get the best out of each service."
-    },
-    "step3": {
-      "title": "Pay and Enjoy the Platform",
-      "content": "Complete the process by making your payment. Once the payment is done, you can immediately start enjoying the streaming service you've chosen, along with your sharing partners. It's that simple!"
-    }
-  },
-  "bestProduct": {
-    "title": "Our Best <span class='gradient-text gradient-color font-secondary px-1 ls-1'>Product</span>",
-    "description": "Enjoy premium streaming services like Netflix and Spotify at a fraction of the cost. With PatunganYuk!, share subscriptions easily, manage accounts securely, and get the best value for your money. Join us and unlock endless entertainment together."
-  },
-  "features": [
-    {
-      "title": "Account Management",
-      "description": "Easily manage shared accounts, payments, and member access through our intuitive platform.",
-      "image": "demos/saas-2/images/svg/analysis.svg"
-    },
-    {
-      "title": "Subscription Sharing",
-      "description": "Efficiently share the cost of streaming services and other subscriptions with like-minded users.",
-      "image": "demos/saas-2/images/svg/paybill.svg"
-    },
-    {
-      "title": "Seamless Collaboration",
-      "description": "Effortlessly connect with partners, share subscriptions, and enjoy your favorite services together.",
-      "image": "demos/saas-2/images/svg/install.svg"
-    }
-  ],
-  "headline": "The <span class=\"gradient-text gradient-color font-secondary px-1 ls-1\">cost of doing business</span><br> shouldn’t cost so damn much",
-  "description": "Enjoy budget-friendly options with our flexible pricing<br>Ensure affordability without compromising on quality or value.",
-  "faq": {
-    "title": "Frequently asked Questions",
-    "description": "Gain quick answers to your most common questions and find out how PatunganYuk! can enhance your streaming experience. If you need more detailed information, our support team is here to help.",
-    "questions": [
-      {
-        "question": "How does PatunganYuk! work?",
-        "answer": "PatunganYuk! connects users who want to share the cost of streaming subscriptions like Netflix, Spotify, and Disney+. Simply join or create a group, split the cost, and enjoy premium services together."
-      },
-      {
-        "question": "How do I join a group on PatunganYuk!?",
-        "answer": "You can search for existing groups based on your preferred streaming service or create your own group. After selecting a group, follow the instructions to complete your payment and start sharing."
-      },
-      {
-        "question": "What payment methods are supported?",
-        "answer": "PatunganYuk! supports a variety of payment methods including credit/debit cards, e-wallets, and bank transfers. Choose the method that best suits your needs."
-      },
-      {
-        "question": "Is my account information secure?",
-        "answer": "Yes, we prioritize your security. Your personal and payment information is encrypted and securely stored. We also recommend using semi-private profiles to enhance privacy."
-      },
-      {
-        "question": "How do I cancel or leave a group?",
-        "answer": "To leave a group, simply navigate to your account settings and select the option to exit the group. Please note that leaving a group will cancel your shared access to the service."
-      }
-    ]
-  }
+  "howTo": "How To",
+  "products": "Products",
+  "pricing": "Pricing",
+  "faqs": "FAQs",
+  "headline": "Watch What You Want, When You Want – Together!",
+  "intro": "Why pay full price when you can share the experience? With PatunganYuk!, you can enjoy all the benefits of Netflix by sharing the cost with friends or other users.",
+  "services_intro": "Provide services on these platform &mdash;",
+  "steps_title_1": "Fill in Your Personal Details",
+  "steps_content_1": "Start by signing up on PatunganYuk! by filling in your personal details. Enter your name, email, and other required information to create your account. The process is quick and easy, ensuring you're ready to share your favorite streaming services in no time.",
+  "steps_title_2": "Choose a Product",
+  "steps_content_2": "Once your account is set up, select the streaming service you want to share. Whether it’s Netflix, Spotify, Disney+, or another service, you can choose and find a sharing partner that matches your preferences. We offer a variety of options to ensure you get the best out of each service.",
+  "steps_title_3": "Pay and Enjoy the Platform",
+  "steps_content_3": "Complete the process by making your payment. Once the payment is done, you can immediately start enjoying the streaming service you've chosen, along with your sharing partners. It's that simple!",
+  "best_product_title": "Our Best Product",
+  "best_product_content": "Enjoy premium streaming services like Netflix and Spotify at a fraction of the cost. With PatunganYuk!, share subscriptions easily, manage accounts securely, and get the best value for your money. Join us and unlock endless entertainment together.",
+  "netflix_title": "Unlimited Entertainment, All in One Place, Shared with Friends",
+  "spotify_title": "Discover, Stream, and Share – at a Fraction of the Cost",
+  "youtube_title": "Explore a World of Videos, Share the Experience",
+  "canva_title": "Bring Your Ideas to Life, Share the Creative Journey",
+  "microsoft365_title": "Work and Collaborate Efficiently, Anywhere",
+  "microsoft365_subtitle": "With PatunganYuk!, share the cost of Microsoft 365 and access essential tools like Word, Excel, and PowerPoint. Enjoy cloud storage and seamless collaboration without the hefty price tag. Start sharing today and boost your productivity affordably with Microsoft 365.",
+  "core_features": "Our core features",
+  "coreFeat_title_1": "Account Management",
+  "coreFeat_content_1": "Easily manage shared accounts, payments, and member access through our intuitive platform.",
+  "coreFeat_title_2": "Subscription Sharing",
+  "coreFeat_content_2": "Efficiently share the cost of streaming services and other subscriptions with like-minded users.",
+  "coreFeat_title_3": "Seamless Collaboration",
+  "coreFeat_content_3": "Effortlessly connect with partners, share subscriptions, and enjoy your favorite services together.",
+  "pricingText": "Affordable Streaming for Everyone Stream More, Pay Less",
+  "pricingDescription": "Enjoy access to top streaming platforms like Netflix, Spotify, and more with our flexible and budget-friendly pricing plans. Get the best value without breaking the bank.",
+  "faq_title": "Frequently asked Questions",
+  "faq_description": "Gain quick answers to your most common questions and find out how PatunganYuk! can enhance your streaming experience. If you need more detailed information, our support team is here to help.",
+  "faq_howItWorks_title": "How does PatunganYuk! work?",
+  "faq_howItWorks_content": "PatunganYuk! connects users who want to share the cost of streaming subscriptions like Netflix, Spotify, and Disney+. Simply join or create a group, split the cost, and enjoy premium services together.",
+  "faq_joinGroup_title": "How do I join a group on PatunganYuk!?",
+  "faq_joinGroup_content": "You can search for existing groups based on your preferred streaming service or create your own group. After selecting a group, follow the instructions to complete your payment and start sharing.",
+  "faq_paymentMethods_title": "What payment methods are supported?",
+  "faq_paymentMethods_content": "PatunganYuk! supports a variety of payment methods including credit/debit cards, e-wallets, and bank transfers. Choose the method that best suits your needs.",
+  "faq_accountSecurity_title": "Is my account information secure?",
+  "faq_accountSecurity_content": "Yes, we prioritize your security. Your personal and payment information is encrypted and securely stored. We also recommend using semi-private profiles to enhance privacy.",
+  "faq_cancelGroup_title": "How do I cancel or leave a group?",
+  "faq_cancelGroup_content": "To leave a group, simply navigate to your account settings and select the option to exit the group. Please note that leaving a group will cancel your shared access to the service.",
+  "callToAction": "Join PatunganYuk! Today!",
+  "callToActionDescription": "Start sharing and saving on your favorite streaming services. With our easy-to-use platform and dedicated support, you’ll enjoy premium access without the premium cost."
 }
