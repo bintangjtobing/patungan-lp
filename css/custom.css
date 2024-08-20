@@ -56,3 +56,20 @@
 .language-dropdown.active .language-dropdown-menu {
   display: block; /* Menampilkan menu dropdown saat aktif */
 }
+#loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #fff; /* Latar belakang bisa diubah sesuai preferensi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader img {
+  max-width: 250px; /* Sesuaikan ukuran gambar */
+  height: auto;
+}

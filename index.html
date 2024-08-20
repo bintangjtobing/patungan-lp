@@ -121,13 +121,22 @@
       y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "np2tvu67ll");
   </script>
+  <script>
+    window.onload = function () {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("wrapper").style.display = "block";
+    };
+  </script>
 </head>
 
 <body class="stretched">
+  <div id="loader">
+    <img src="json/loading.gif" alt="Loading...">
+  </div>
 
   <!-- Document Wrapper
 	============================================= -->
-  <div id="wrapper">
+  <div id="wrapper" style="display: none;">
 
     <!-- Header
 		============================================= -->
