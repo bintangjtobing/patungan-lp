@@ -16,8 +16,20 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
-      - name: Deploy HTML Project
+      - name: Install Dependencies
+        run: |
+          composer install --optimize-autoloader --no-dev
+          npm install
+          npm run prod
+
+      - name: Deploy Laravel Project
         if: github.ref == 'refs/heads/main'
         run: |
-          sshpass -p 'LibrA21101998' rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ patunganyuk@153.92.5.213:/home/patunganyuk/public_html/
-          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'cd /home/patunganyuk/public_html'
+          sshpass -p 'LibrA21101998' rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ patunganyuk@153.92.5.213:/home/patunganyuk/repo/patungan-crm/
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'cd /home/patunganyuk/repo/patungan-crm && php artisan config:cache && php artisan route:cache && php artisan view:cache'
+          sshpass -p 'LibrA21101998' rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" /home/patunganyuk/repo/patungan-crm/public/ patunganyuk@153.92.5.213:/home/patunganyuk/public_html/
+
+      - name: Set Permissions
+        run: |
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'find /home/patunganyuk/repo/patungan-crm/storage/ -type d -exec chmod 775 {} \;'
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'find /home/patunganyuk/repo/patungan-crm/bootstrap/cache/ -type d -exec chmod 775 {} \;'

@@ -1,0 +1,75 @@
+.language-dropdown {
+  border: 2px solid #ccc; /* Warna border untuk dropdown */
+  border-radius: 4px; /* Sudut dropdown yang melengkung */
+  background-color: #f9f9f9; /* Latar belakang dropdown */
+  font-size: 16px; /* Ukuran font */
+  cursor: pointer; /* Menunjukkan bahwa dropdown dapat diklik */
+  padding: 8px 12px; /* Ruang di dalam dropdown */
+  color: #333; /* Warna teks */
+  transition: all 0.3s ease; /* Transisi halus untuk hover dan focus */
+  display: inline-block; /* Mengatur dropdown agar berada di dalam baris */
+}
+
+.language-dropdown:hover {
+  background-color: #e9e9e9; /* Latar belakang saat hover */
+  border-color: #888; /* Warna border saat hover */
+}
+
+.language-dropdown:focus {
+  outline: none; /* Menghilangkan outline saat dropdown fokus */
+  border-color: #007bff; /* Warna border saat fokus */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Bayangan saat fokus */
+}
+
+.language-dropdown .dropdown-arrow {
+  border: solid #333; /* Warna panah */
+  border-width: 0 2px 2px 0; /* Bentuk panah */
+  display: inline-block; /* Menampilkan panah di baris yang sama */
+  padding: 4px;
+  transform: rotate(45deg); /* Memutar panah */
+  vertical-align: middle; /* Menyelaraskan vertikal */
+  margin-left: 8px; /* Jarak antara teks dan panah */
+}
+
+/* Style tambahan untuk menu dropdown */
+.language-dropdown-menu {
+  display: none; /* Menyembunyikan menu dropdown secara default */
+  position: absolute; /* Posisi menu dropdown */
+  background-color: #fff; /* Latar belakang menu dropdown */
+  border: 1px solid #ddd; /* Border menu dropdown */
+  border-radius: 4px; /* Sudut menu dropdown yang melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan menu dropdown */
+  z-index: 1000; /* Mengatur z-index untuk memastikan menu di atas elemen lain */
+}
+
+.language-dropdown-menu a {
+  display: block; /* Mengatur link dalam menu dropdown agar menjadi blok */
+  padding: 8px 12px; /* Ruang di dalam item menu */
+  color: #333; /* Warna teks item menu */
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+}
+
+.language-dropdown-menu a:hover {
+  background-color: #f0f0f0; /* Latar belakang saat hover pada item menu */
+}
+
+.language-dropdown.active .language-dropdown-menu {
+  display: block; /* Menampilkan menu dropdown saat aktif */
+}
+#loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #fff; /* Latar belakang bisa diubah sesuai preferensi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader img {
+  max-width: 250px; /* Sesuaikan ukuran gambar */
+  height: auto;
+}
