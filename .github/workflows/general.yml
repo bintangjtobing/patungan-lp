@@ -18,8 +18,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          composer install
           cp .env.example .env
-          composer install --optimize-autoloader --no-dev
           php artisan key:generate --ansi
 
       - name: Deploy Laravel Project
