@@ -35,4 +35,4 @@ jobs:
 
       - name: Create Symlink for Public Directory
         run: |
-          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'ln -sfn /home/patunganyuk/repo/patungan-lp/public /home/patunganyuk/public_html'
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'ln -sfn /home/patunganyuk/repo/patungan-lp/public/ /home/patunganyuk/public_html'
