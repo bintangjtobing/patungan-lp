@@ -19,9 +19,8 @@ jobs:
       - name: Install Dependencies
         run: |
           cp .env.example .env
-          composer install --optimize-autoloader --no-dev
-          npm install
-          npm run prod
+          composer install
+          php artisan key:generate --ansi
 
       - name: Deploy Laravel Project
         if: github.ref == 'refs/heads/main'
