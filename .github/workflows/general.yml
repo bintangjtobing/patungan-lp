@@ -18,21 +18,26 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cp .env.example .env
           composer install --optimize-autoloader --no-dev
           php artisan key:generate --ansi
 
       - name: Deploy Laravel Project
         if: github.ref == 'refs/heads/main'
         run: |
+          # Deploy application files
           sshpass -p 'LibrA21101998' rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ patunganyuk@153.92.5.213:/home/patunganyuk/repo/patungan-lp/
-          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'cd /home/patunganyuk/repo/patungan-lp && php artisan config:cache && php artisan route:cache && php artisan view:cache'
 
-      - name: Copy Public Directory Contents to Public_HTML
-        run: |
+          # Deploy public files separately
           sshpass -p 'LibrA21101998' rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" /home/patunganyuk/repo/patungan-lp/public/ patunganyuk@153.92.5.213:/home/patunganyuk/public_html/
+
+          # Update server
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'cd /home/patunganyuk/repo/patungan-lp && php artisan config:cache && php artisan route:cache && php artisan view:cache'
 
       - name: Set Permissions
         run: |
           sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'find /home/patunganyuk/repo/patungan-lp/storage/ -type d -exec chmod 775 {} \;'
           sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'find /home/patunganyuk/repo/patungan-lp/bootstrap/cache/ -type d -exec chmod 775 {} \;'
+
+          # Set permissions for the public directory if needed
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'find /home/patunganyuk/public_html/ -type d -exec chmod 755 {} \;'
+          sshpass -p 'LibrA21101998' ssh -o StrictHostKeyChecking=no patunganyuk@153.92.5.213 'find /home/patunganyuk/public_html/ -type f -exec chmod 644 {} \;'
