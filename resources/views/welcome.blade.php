@@ -98,6 +98,7 @@
         content="https://res.cloudinary.com/boxity-id/image/upload/q_65/v1723832781/cover_wa_tsgukx.png">
     <link rel="alternate" href="https://patunganyuk.com/?lang=en" hreflang="en">
     <meta name="twitter:site" content="@patunganyukidn">
+    <meta name="facebook-domain-verification" content="vj8wf7ntoogonkispxmoznqie1a0zm" />
 
 
     <!-- Favicon -->
