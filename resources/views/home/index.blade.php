@@ -429,9 +429,12 @@ lain.')
 
                                 <div class="col-lg-6">
                                     <div class="pricing-price fw-bolder text-lg-end pt-lg-0 pb-0">
-                                        <div class="pts-content pts-content-monthly">34.5K<span
-                                                class="d-block fs-6 fw-semibold op-05 mb-0 mt-2">per month</span></div>
-                                        <div class="pts-content pts-content-annually">90K<span
+                                        <div class="pts-content pts-content-monthly">{!!
+                                            number_format($products[1]['harga_jual'] / 1000, 1) . 'K' !!}<span
+                                                class="d-block fs-6 fw-semibold op-05 mb-0 mt-2">per month</span>
+                                        </div>
+                                        <div class="pts-content pts-content-annually">{!!
+                                            number_format(($products[1]['harga_jual'] * 3) / 1000, 1) . 'K' !!}<span
                                                 class="d-block fs-6 fw-semibold op-05 mb-0 mt-2">per 3 months</span>
                                         </div>
                                     </div>
@@ -481,9 +484,11 @@ lain.')
 
                                 <div class="col-lg-6">
                                     <div class="pricing-price fw-bolder text-lg-end pt-lg-0 pb-0">
-                                        <div class="pts-content pts-content-monthly">20K<span
+                                        <div class="pts-content pts-content-monthly">{!!
+                                            number_format($products[3]['harga_jual'] / 1000, 1) . 'K' !!}<span
                                                 class="d-block fs-6 fw-semibold op-05 mb-0 mt-2">per month</span></div>
-                                        <div class="pts-content pts-content-annually">50K<span
+                                        <div class="pts-content pts-content-annually">{!!
+                                            number_format(($products[3]['harga_jual'] * 3) / 1000, 1) . 'K' !!}<span
                                                 class="d-block fs-6 fw-semibold op-05 mb-0 mt-2">per 3 months</span>
                                         </div>
                                     </div>

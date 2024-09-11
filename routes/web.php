@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Http;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.index');
+    $response = Http::withToken('1|mJ7CBLSQTH5vHAIuGi8S94U6c8kLjPFDOmG58JIc54b8d78f')
+        ->get('https://app.patunganyuk.com/api/admin/products');
+
+    // Decode the JSON response
+    $products = $response->json('data');
+
+    // Return the view with the API data
+    // return $products;
+    return view('home.index', ['products' => $products]);
 });
 Route::view('/privacy-policy', 'home.privacy');
 Route::view('/cookies', 'home.cookies');
