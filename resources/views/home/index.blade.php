@@ -611,9 +611,12 @@ lain.')
                                 style="background: url('demos/saas-2/images/new/footer-promo.svg'); background-position: center center; background-size: cover;">
                                 <div class="col-lg-8 text-center">
                                     <div class="position-relative z-1">
-                                        <h3 class="display-4 fw-bolder text-white mb-3 ls-n-1" data-i18n="callToAction">
+                                        <h3 class="display-4 fw-bolder text-white mb-3 ls-n-1">{{ $callToActionId }}
                                         </h3>
-                                        <p class="lead" data-i18n="callToActionDescription"></p>
+                                        <p class="lead">
+                                            {{ $callToActionDescriptionId }}
+                                        </p>
+
                                         <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=website&utm_campaign=promotion&utm_term=getstarted-patunganyuk"
                                             class="button button-xlarge bg-white text-dark rounded-pill h-op-09 m-0 px-5 py-3">Get
                                             Started <i class="fa-solid fa-arrow-right ms-1"></i></a>
