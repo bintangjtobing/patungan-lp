@@ -275,10 +275,10 @@
                                 </h4>
                                 <ul>
                                     <li><a
-                                            href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=website&utm_campaign=promotion&utm_term=getstarted-patunganyuk">Sign
+                                            href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=footer-signup&utm_term=getstarted-patunganyuk">Sign
                                             Up</a></li>
                                     <li><a
-                                            href="https://app.patunganyuk.com/user/login?utm_medium=social&utm_source=website&utm_campaign=promotion&utm_term=getstarted-patunganyuk">Log
+                                            href="https://app.patunganyuk.com/user/login?utm_medium=landing-page&utm_source=website&utm_campaign=footer-login&utm_term=getstarted-patunganyuk">Log
                                             In</a></li>
                                 </ul>
                             </div>

@@ -19,10 +19,22 @@ lain.')
                     menikmati
                     semua keuntungan Netflix dengan berbagi biaya bersama teman atau pengguna lainnya.
                 </p>
-                <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
-                    class="button button-large px-lg-5 py-lg-3 rounded-pill m-0 mb-4"><i
+                <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
+                    id="signUpGetStarted" class="button button-large px-lg-5 py-lg-3 rounded-pill m-0 mb-4"><i
                         class="fa-solid fa-star"></i>Get
                     Started</a>
+                <script type="text/javascript">
+                    var button = document.getElementById('signUpGetStarted');
+                                button.addEventListener(
+                                  'click',
+                                  function() {
+                                    fbq('track', 'Lead', {
+                                      content_name: 'User Sign Up',
+                                    });
+                                  },
+                                  false
+                                );
+                </script>
                 <a href="https://wa.me/6281915881569?utm_medium=social&utm_source=website&utm_campaign=patunganyuk-contact-us&utm_term=contact-patunganyuk"
                     class="button button-large px-lg-5 py-lg-3 button-dark button-border button-black border-contrast-500 rounded-pill ms-1 mb-4"><i
                         class="fa-solid fa-headset"></i>Contact Us</a>
@@ -193,9 +205,22 @@ lain.')
                                                 Hiburan Tak Terbatas, Semua dalam Satu Tempat, Dibagikan dengan Teman
                                             </h3>
                                             <div>
-                                                <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
-                                                    class="button button-large button-border button-dark button-black rounded-pill m-0">Discover
+                                                <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-netflix&utm_term=getstarted-patunganyuk&utm_content=register"
+                                                    class="button button-large button-border button-dark button-black rounded-pill m-0"
+                                                    id="userDiscoverNetflix">Discover
                                                     Netflix</a>
+                                                <script type="text/javascript">
+                                                    var button = document.getElementById('userDiscoverNetflix');
+                                                                    button.addEventListener(
+                                                                      'click',
+                                                                      function() {
+                                                                        fbq('track', 'Lead', {
+                                                                          content_name: 'User Discover Netflix',
+                                                                        });
+                                                                      },
+                                                                      false
+                                                                    );
+                                                </script>
                                             </div>
                                         </div>
                                     </div>
@@ -222,9 +247,22 @@ lain.')
                                         Bagikan – dengan
                                         Biaya yang Lebih Terjangkau</h3>
                                     <div>
-                                        <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
+                                        <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-spotify&utm_term=getstarted-patunganyuk&utm_content=register"
+                                            id="userDiscoverSpotify"
                                             class="button button-large button-border button-dark button-black rounded-pill m-0">Discover
                                             Spotify</a>
+                                        <script type="text/javascript">
+                                            var button = document.getElementById('userDiscoverSpotify');
+                                                                button.addEventListener(
+                                                                  'click',
+                                                                  function() {
+                                                                    fbq('track', 'Lead', {
+                                                                      content_name: 'User Discover Spotify',
+                                                                    });
+                                                                  },
+                                                                  false
+                                                                );
+                                        </script>
                                     </div>
                                     <svg viewBox="0 0 300 300" width="280" height="280"
                                         style="position: absolute; right: -50px; bottom: -30px; rotate: 180deg;  z-index: auto;">
@@ -247,9 +285,22 @@ lain.')
                                             Bagikan
                                             Pengalaman</h3>
                                         <div>
-                                            <a href="#"
+                                            <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-youtube&utm_term=getstarted-patunganyuk&utm_content=register"
+                                                id="userDiscoverYoutube"
                                                 class="button button-large button-border button-dark button-black rounded-pill m-0">Discover
                                                 Youtube</a>
+                                            <script type="text/javascript">
+                                                var button = document.getElementById('userDiscoverYoutube');
+                                                                        button.addEventListener(
+                                                                          'click',
+                                                                          function() {
+                                                                            fbq('track', 'Lead', {
+                                                                              content_name: 'User Discover Youtube',
+                                                                            });
+                                                                          },
+                                                                          false
+                                                                        );
+                                            </script>
                                         </div>
                                     </div>
                                     <svg viewBox="0 0 300 300" width="200" height="200"
@@ -281,9 +332,22 @@ lain.')
                                             dengan Indah
                                         </h3>
                                         <div>
-                                            <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
+                                            <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-canva&utm_term=getstarted-patunganyuk&utm_content=register"
+                                                id="userDiscoverCanva"
                                                 class="button button-large button-border button-dark button-black rounded-pill m-0">Discover
                                                 Canva</a>
+                                            <script type="text/javascript">
+                                                var button = document.getElementById('userDiscoverCanva');
+                                                                            button.addEventListener(
+                                                                              'click',
+                                                                              function() {
+                                                                                fbq('track', 'Lead', {
+                                                                                  content_name: 'User Discover Canva',
+                                                                                });
+                                                                              },
+                                                                              false
+                                                                            );
+                                            </script>
                                         </div>
                                     </div>
                                     <svg class="d-none d-md-block" viewBox="0 0 300 300" width="280" height="280"
@@ -319,9 +383,22 @@ lain.')
                                                     berbagi hari ini dan tingkatkan produktivitas dengan biaya
                                                     terjangkau.
                                                 </p>
-                                                <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
+                                                <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-365&utm_term=getstarted-patunganyuk&utm_content=register"
+                                                    id="userDiscover365"
                                                     class="button button-large button-border h-bg-black button-dark button-black rounded-pill m-0">Discover
                                                     Microsoft 365</a>
+                                                <script type="text/javascript">
+                                                    var button = document.getElementById('userDiscover365');
+                                                                                    button.addEventListener(
+                                                                                      'click',
+                                                                                      function() {
+                                                                                        fbq('track', 'Lead', {
+                                                                                          content_name: 'User Discover 365',
+                                                                                        });
+                                                                                      },
+                                                                                      false
+                                                                                    );
+                                                </script>
                                             </div>
                                             <div class="col-md-6">
                                                 <!-- <img class="" src="demos/saas-2/images/svg/group.svg" title="Microsoft help PatunganYuk"
@@ -462,9 +539,22 @@ lain.')
 
                             </div>
                             <div class="pricing-action p-0 mt-auto">
-                                <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
+                                <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-pricing-netflix&utm_term=getstarted-patunganyuk&utm_content=register"
+                                    id="userDiscoverByPricingNetflix"
                                     class="button fw-semibold w-100 py-3 px-4 d-flex justify-content-between rounded-pill mx-0">Get
                                     Started <i class="bi-arrow-right"></i></a>
+                                <script type="text/javascript">
+                                    var button = document.getElementById('userDiscoverByPricingNetflix');
+                                                                        button.addEventListener(
+                                                                          'click',
+                                                                          function() {
+                                                                            fbq('track', 'Lead', {
+                                                                              content_name: 'User Discover By Pricing Netflix',
+                                                                            });
+                                                                          },
+                                                                          false
+                                                                        );
+                                </script>
                             </div>
                             <img src="demos/saas-2/images/svg/pricing-bg.svg" title="Pricing Patungan"
                                 alt="Pricing Patungan" class="pricing-bg ">
@@ -508,9 +598,22 @@ lain.')
 
                             </div>
                             <div class="pricing-action p-0 m-0 mt-auto">
-                                <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=google&utm_campaign=promotion&utm_term=getstarted-patunganyuk&utm_content=register"
+                                <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=discover-pricing-spotify&utm_term=getstarted-patunganyuk&utm_content=register"
+                                    id="userDiscoverByPricingSpotify"
                                     class="button fw-semibold w-100 py-3 px-4 d-flex justify-content-between rounded-pill mx-0">Get
                                     Started <i class="bi-arrow-right"></i></a>
+                                <script type="text/javascript">
+                                    var button = document.getElementById('userDiscoverByPricingSpotify');
+                                                                            button.addEventListener(
+                                                                              'click',
+                                                                              function() {
+                                                                                fbq('track', 'Lead', {
+                                                                                  content_name: 'User Discover By Pricing Spotify',
+                                                                                });
+                                                                              },
+                                                                              false
+                                                                            );
+                                </script>
                             </div>
                         </div>
 
@@ -617,7 +720,7 @@ lain.')
                                             {{ $callToActionDescriptionId }}
                                         </p>
 
-                                        <a href="https://app.patunganyuk.com/user/register?utm_medium=social&utm_source=website&utm_campaign=promotion&utm_term=getstarted-patunganyuk"
+                                        <a href="https://app.patunganyuk.com/user/register?utm_medium=landing-page&utm_source=website&utm_campaign=cta-patungan&utm_term=getstarted-patunganyuk"
                                             class="button button-xlarge bg-white text-dark rounded-pill h-op-09 m-0 px-5 py-3">Get
                                             Started <i class="fa-solid fa-arrow-right ms-1"></i></a>
 
