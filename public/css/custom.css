@@ -77,30 +77,55 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 0;
-    text-align: center;
+    padding: 15px 20px; /* Menambah padding untuk memberi ruang lebih pada teks */
+    text-align: left; /* Ubah dari center ke left */
     width: 100%;
-    max-height: 120px;
+    margin: 0 auto; /* Pusatkan elemen secara horizontal */
     z-index: 9999;
     background-color: var(--cnvs-heading-color);
-    margin-top: 10px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Tetap menambahkan shadow untuk kesan floating */
+    border-radius: 5px; /* Memberikan sedikit radius pada sudut */
+}
+.js-cookie-consent .px-6{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 .js-cookie-consent p {
     color: #fff !important;
     font-size: 14px !important;
-    margin-bottom: 5px !important;
-    padding-bottom: 0 !important;
-    margin-top: 10px;
+    line-height: 1.5;
+    margin: 0; /* Hapus margin agar tidak ada ruang kosong di atas dan bawah */
 }
-.js-cookie-consent button{
-    margin-top: 0 !important;
+
+.js-cookie-consent button {
     background-color: var(--cnvs-themecolor);
     border: 0;
-    margin-bottom: 10px !important;
+    padding: 10px 20px; /* Lebih lebar pada padding tombol */
     font-size: 14px;
+    border-radius: 5px; /* Tambahkan border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Beri jarak antara teks dan tombol */
 }
-.js-cookie-consent .p-4{
-    padding: 10px 0 0 0 !important;
+
+.js-cookie-consent button:hover {
+    background-color: #e6b800;
 }
+
+/* Media query untuk layar kecil */
+@media (max-width: 480px) {
+    .js-cookie-consent {
+        max-width: 100%; /* Pada layar kecil, biarkan elemen memenuhi lebar layar */
+        padding: 15px 10px; /* Kurangi padding agar lebih pas di layar kecil */
+        text-align: left;
+    }
+
+    .js-cookie-consent button {
+        width: 100%; /* Lebarkan tombol agar memenuhi elemen */
+        text-align: center; /* Teks tombol tetap di tengah */
+    }
+}
+
+
 
 
