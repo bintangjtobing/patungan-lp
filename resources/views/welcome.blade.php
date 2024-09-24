@@ -173,6 +173,7 @@
     <!-- Document Wrapper
         ============================================= -->
     <div id="wrapper" style="display: none;">
+        @include('cookie-consent::index')
 
         <!-- Header
             ============================================= -->
