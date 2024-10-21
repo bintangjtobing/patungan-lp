@@ -331,14 +331,23 @@
 
     </div><!-- #wrapper end -->
 
-    <!-- Go To Top
-          ============================================= -->
-    <div id="gotoTop" class="uil uil-angle-up rounded-circle bg-color h-bg-dark"></div>
-
     <!-- JavaScripts
           ============================================= -->
     <script src="js/plugins.min.js"></script>
     <script src="js/functions.bundle.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/6715f56d4304e3196ad4f0a5/1iamsde0u';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
     <script>
         window.addEventListener('load', function () {
             var swiperParent = new Swiper('.swiper-testimonial', {
