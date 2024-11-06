@@ -132,7 +132,7 @@
       "logo": "https://res.cloudinary.com/boxity-id/image/upload/q_65/v1720974567/4_ligzdg.png",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+62 819 1588 1569",
+        "telephone": "+62 851 9592 2910",
         "contactType": "customer service"
       }
     }
@@ -291,9 +291,8 @@
                                 </h4>
                                 <ul class="list-unstyled">
                                     <li class="mb-3"><a class="text-dark"
-                                            href="https://wa.me/6281915881569?utm_medium=social&utm_source=website&utm_campaign=patunganyuk-contact-us&utm_term=contact-patunganyuk"><i
-                                                class="me-3 color bi-telephone-fill"></i>+62 819
-                                            1588 1569</a></li>
+                                            href="https://wa.me/6285195922910?utm_medium=social&utm_source=website&utm_campaign=patunganyuk-contact-us&utm_term=contact-patunganyuk"><i
+                                                class="me-3 color bi-telephone-fill"></i>+62 851 9592 2910</a></li>
                                     <li class="mb-3"><a class="text-dark" href="mailto:help@patunganyuk.com"><i
                                                 class="me-3 color bi-envelope-fill"></i>help@patunganyuk.com</a></li>
                                     <li class="mb-3"><i class="me-3 color bi-calendar-week-fill"></i>Mon - Sat | 08:00 -

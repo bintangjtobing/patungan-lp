@@ -35,7 +35,7 @@ lain.')
                                   false
                                 );
                 </script>
-                <a href="https://wa.me/6281915881569?utm_medium=social&utm_source=website&utm_campaign=patunganyuk-contact-us&utm_term=contact-patunganyuk"
+                <a href="https://wa.me/6285195922910?utm_medium=social&utm_source=website&utm_campaign=patunganyuk-contact-us&utm_term=contact-patunganyuk"
                     class="button button-large px-lg-5 py-lg-3 button-dark button-border button-black border-contrast-500 rounded-pill ms-1 mb-4"><i
                         class="fa-solid fa-headset"></i>Contact Us</a>
             </div>
