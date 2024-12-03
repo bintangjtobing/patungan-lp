@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Product;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Http;
 /*
@@ -18,12 +20,11 @@ Route::get('/', function () {
         ->get('https://app.patunganyuk.com/api/admin/products');
 
     // Decode the JSON response
-    $products = $response->json('data');
+    $products = Product::orderBy('created_at', 'DESC')->get();
 
-    $count = Http::withToken('1|mJ7CBLSQTH5vHAIuGi8S94U6c8kLjPFDOmG58JIc54b8d78f')
-        ->get('https://app.patunganyuk.com/api/admin/users');
+    $count = User::get();
 
-    $totalUsers = $count->json('meta.total');
+    $totalUsers = User::count();
 
     // Buat kalimat dinamis
     // Tambahkan tanda + setelah $totalUsers
