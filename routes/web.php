@@ -16,11 +16,8 @@ use Illuminate\Support\Facades\Http;
 */
 
 Route::get('/', function () {
-    $response = Http::withToken('1|mJ7CBLSQTH5vHAIuGi8S94U6c8kLjPFDOmG58JIc54b8d78f')
-        ->get('https://app.patunganyuk.com/api/admin/products');
-
     // Decode the JSON response
-    $products = Product::orderBy('created_at', 'DESC')->get();
+    $products = Product::all();
 
     $count = User::get();
 
